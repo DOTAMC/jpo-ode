@@ -115,7 +115,7 @@ public class TIMController {
                        ManagerAndControllerServices.log(false, "No response from RSU IP=" + curRsu.getRsuTarget(), null));
               } else if (0 == response.getResponse().getErrorStatus()) {
                  responseList.put(curRsu.getRsuTarget(), ManagerAndControllerServices.log(true,
-                       "SNMP deposit successful. RSU IP = " + curRsu.getRsuTarget() + ", Status Code: " + response.getResponse().getErrorStatus(), null));
+                       "SNMP deposit successful. RSU IP = " + curRsu.getRsuTarget() + ", Status Code: " + response.getResponse().getErrorStatus() + ", VariableBindings: " + response.getResponse().getVariableBindings().toString(), null));
               } else {
                  responseList.put(curRsu.getRsuTarget(),
                        ManagerAndControllerServices.log(false,
