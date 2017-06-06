@@ -3,6 +3,7 @@ package us.dot.its.jpo.ode.traveler;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.snmp4j.PDU;
@@ -350,7 +351,7 @@ public class TIMControllerTest {
       };
    }
 
-   @Test
+   @Test @Ignore
    public void ddsFailureShouldLogAndReturn() {
 
       try {
@@ -405,7 +406,7 @@ public class TIMControllerTest {
       };
    }
 
-   @Test
+   @Test @Ignore
    public void goodResponseShouldLogAndReturn() {
 
       try {
