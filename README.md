@@ -44,8 +44,8 @@ ODE provides the following living documents to keep ODE users and stakeholders i
 All stakeholders are invited to provide input to these documents. Stakeholders should direct all input on this document to the JPO Product Owner at DOT, FHWA, and JPO. To provide feedback, we recommend that you create an "issue" in this repository (https://github.com/usdot-jpo-ode/jpo-ode/issues). You will need a GitHub account to create an issue. If you don’t have an account, a dialog will be presented to you to create one at no cost.
 
 <a name="collaboration-tools"/>
-
-## III. Collaboration Tools
+<details>
+<summary>## III. Collaboration Tools</summary>
 
 ### Source Repositories - GitHub
 - Main repository on GitHub (public)
@@ -90,6 +90,8 @@ travis env set SONAR_SECURITY_TOKEN <key> -pr <user-account>/<repo-name>
 https://sonarqube.com/organizations/usdot-jpo-ode/projects
 
 [Back to top](#toc)
+
+</details>
 
 <a name="getting-started"/>
 
