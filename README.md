@@ -33,11 +33,13 @@ In the context of ITS, an Operational Data Environment is a real-time data acqui
 
 <a name="documentation"/>
 
+<summary>
 
+## II. Documentation 
+
+</summary>
 
 <details>
-
-<summary> ## II. Documentation </summary>
 
 ODE provides the following living documents to keep ODE users and stakeholders informed of the latest developments:
 
