@@ -34,6 +34,7 @@ In the context of ITS, an Operational Data Environment is a real-time data acqui
 <a name="documentation"/>
 
 ## II. Documentation
+<details>
 ODE provides the following living documents to keep ODE users and stakeholders informed of the latest developments:
 
 1. [ODE Architecture](docs/JPO_ODE_Architecture.doc)
@@ -42,14 +43,11 @@ ODE provides the following living documents to keep ODE users and stakeholders i
 4. [ODE Smoke Tests](https://github.com/usdot-jpo-ode/jpo-ode/wiki/JPO-ODE-QA-Documents)
 
 All stakeholders are invited to provide input to these documents. Stakeholders should direct all input on this document to the JPO Product Owner at DOT, FHWA, and JPO. To provide feedback, we recommend that you create an "issue" in this repository (https://github.com/usdot-jpo-ode/jpo-ode/issues). You will need a GitHub account to create an issue. If you don’t have an account, a dialog will be presented to you to create one at no cost.
+</details>
 
 <a name="collaboration-tools"/>
-
-<details>
-
-<summary>
 ## III. Collaboration Tools
-</summary>
+<details>
 
 ### Source Repositories - GitHub
 - Main repository on GitHub (public)
@@ -100,6 +98,8 @@ https://sonarqube.com/organizations/usdot-jpo-ode/projects
 <a name="getting-started"/>
 
 ## IV. Getting Started
+
+<details>
 
 The following instructions describe the procedure to fetch, build, and run the application. 
 
@@ -238,10 +238,12 @@ You can run the application on your local machine while other services are deplo
 ```
 
 [Back to top](#toc)
+</details>
 
 <a name="testing"/>
-
 ## V. Testing ODE Application
+<details>
+
 Once the ODE is running, you should be able to access the jpo-ode web UI at `localhost:8080`.
 
 1. Press the ```Connect``` button to connect to the ODE WebSocket service.
@@ -292,9 +294,13 @@ With the PPM module running, all filtered BSMs that are uploaded through the web
 
 [Back to top](#toc)
 
+</details>
+
 <a name="dev-tools"/>
 
 ## VI. Development Tools
+
+<details>
 
 ### Integrated Development Environment (IDE)
 
@@ -313,3 +319,5 @@ To be added.
 To be added.
 
 [Back to top](#toc)
+
+</details>
